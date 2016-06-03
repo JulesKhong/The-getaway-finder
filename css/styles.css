@@ -1,5 +1,13 @@
+body {
+  background: radial-gradient(white, #f1ffff);
+}
+
 .form-control {
   margin-bottom: 30px;
+}
+
+#destination {
+  width: 90%;
 }
 
 #snow {
@@ -56,10 +64,4 @@
   color: white;
   background: url("../img/vegas.jpg") no-repeat fixed;
   background-size: cover;
-}
-
-img {
-  width: 40%;
-  float: left;
-  margin-right: 10px;
 }
