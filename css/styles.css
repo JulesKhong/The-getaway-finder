@@ -1,9 +1,19 @@
+/*html {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
 .form-control {
   margin-bottom: 30px;
 }
 
 #snow {
   display: none;
+  width: 90%;
 }
 
 #beach {
@@ -18,6 +28,20 @@
   display: none;
 }
 
-/*body {
-  background: #
-}*/
+.snowPhoto {
+  /*background-image: ;*/
+  color: white;
+  background: url("../img/snowplay.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.beachPhoto {
+  background-image: url("../img/beachZ.jpg");
+  color: white;
+}
+
+img {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+}

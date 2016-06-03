@@ -16,9 +16,13 @@ $(document).ready(function(){
       if (result < 17){
         $("#snow").show();
         $("form").hide();
+        $("body").removeClass();
+        $("body").addClass("snowPhoto");
       } else if (result < 25) {
         $("#beach").show();
         $("form").hide();
+        $("body").removeClass();
+        $("body").addClass("beachPhoto");
       } else if (result < 33) {
         $("#creative").show();
         $("form").hide();
