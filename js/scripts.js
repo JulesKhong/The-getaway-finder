@@ -15,12 +15,16 @@ $(document).ready(function(){
     var result = sum(qOne, qTwo, qThree, qFour, qFive);
       if (result < 17){
         $("#snow").show();
+        $("form").hide();
       } else if (result < 25) {
         $("#beach").show();
+        $("form").hide();
       } else if (result < 33) {
         $("#creative").show();
+        $("form").hide();
       } else  {
         $("#party").show();
+        $("form").hide();
       }
 
       // if (result < 17){
