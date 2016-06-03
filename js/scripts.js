@@ -7,16 +7,14 @@ $(document).ready(function(){
       return qOne + qTwo + qThree + qFour + qFive;
     };
 
-    var name = function(user){
-      return user;
-    }
-
-    var user = $("#questionZero");
+    var user = $("#questionZero").val();
     var qOne = parseInt($("#questionOne").val());
     var qTwo = parseInt($("#questionTwo").val());
     var qThree = parseInt($("#questionThree").val());
     var qFour = parseInt($("#questionFour").val());
     var qFive = parseInt($("#questionFive").val());
+
+    $(".userName").append(user);
 
     var result = sum(qOne, qTwo, qThree, qFour, qFive);
       if (result < 17){
@@ -42,7 +40,6 @@ $(document).ready(function(){
       } else {
         alert("uh-oh. something didn't work. Please try again");
       }
-      $("#questionZero").text(user);
 
   });
 });
