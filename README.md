@@ -8,7 +8,7 @@
 This site allows users to answer a handful of questions to determine what their ultimate vacation destination would be.
 
 ##Setup
-1. [Click here](https://github.com/JuliaDickey/vacation) to see the folder in github
+1. [Click here](https://github.com/JuliaDickey/The-getaway-finder) to see the folder in github
 2. Clone the folder to your desktop
 3. Open "index.html" in your preferred browser
 4. Answer the questions and hit submit to find your ultimate getaway, then explore the links provided to decide on a final destination.
