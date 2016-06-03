@@ -14,6 +14,8 @@
       <h1>The Getaway Finder</h1>
       <p class="lead">Use this quick quiz to find your ultimate vacation destination</p>
       <form id="destination">
+        <label for="questionZero">What's your name?</label>
+        <input id="questionZero" class="form-control" type="text">
         <label for="questionOne">I prefer time spent:</label>
         <select class="form-control" id="questionOne">
           <option value="2">in the snow</option>
@@ -54,19 +56,62 @@
 
         </p> -->
       </form>
-      <div id="snow">
-        <h3>You are a snow bunny</h3>
-      </div>
-      <div id="beach">
-        <h3>You are a beach bum</h3>
-        <img class="img-rounded" src="img/zanzibar.jpg" alt="sunny beaches of Zanzibar"/>
-        <img class="img-rounded" src="img/mexico.jpg" alt="sunny beaches of Zanzibar"/>
-      </div>
-      <div id="creative">
-        <h3>You would love a creative retreat</h3>
-      </div>
-      <div id="party">
-        <h3>You are a party animal</h3>
+        <div id="snow">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>You are a snow bunny</h3>
+              <p>When adventure calls your name, you don't hesitate. For you the perfect vacation includes just the right mix of downtime, and adrenaline.</p><br>
+              <h4>Your top destinations include:</h4>
+              <ul>
+              <li><a href="#">Bryce Canyon, Utah, USA</a></li>
+              <li><a href="#">Mt.Tomamu, Japan</a></li>
+              <li><a href="#">Whistler, Canada</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="beach">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>You are beach ready</h3>
+              <p>For you, vacation is all about the rest and relaxation.</p><br>
+              <h4>Your top destinations include:</h4>
+              <ul>
+              <li><a href="#">Zanzibar, Tanzania</a></li>
+              <li><a href="#">, Hawaii</a></li>
+              <li><a href="#">, Mexico</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="creative">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>You are overdue for a mindful retreat</h3>
+              <p>Sometimes nothing is better than the stillness of creative, mindful persuits. For you, vacation is a time to reflect, and let those creative juices flow.</p><br>
+              <h4>Your top destinations include:</h4>
+              <ul>
+              <li><a href="#">Sedona, AZ, USA</a></li>
+              <li><a href="#">Berlin, Germany</a></li>
+              <li><a href="#">Paris, France</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="party">
+          <div class="row">
+            <div class="col-md-4">
+              <h3><span id="userName"></span> ,you are ready for the city lights</h3>
+              <p>Getting out, meeting people, and experiencing new places are right up your alley.</p><br>
+              <h4>Your top destinations include:</h4>
+              <ul>
+              <li><a href="#">Las Vegas, Nevada</a></li>
+              <li><a href="#">Cancun, Mexico</a></li>
+              <li><a href="#">New York, NY, USA</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -7,11 +7,17 @@ $(document).ready(function(){
       return qOne + qTwo + qThree + qFour + qFive;
     };
 
+    var name = function(user){
+      return user;
+    }
+
+    var user = $("#questionZero");
     var qOne = parseInt($("#questionOne").val());
     var qTwo = parseInt($("#questionTwo").val());
     var qThree = parseInt($("#questionThree").val());
     var qFour = parseInt($("#questionFour").val());
     var qFive = parseInt($("#questionFive").val());
+
     var result = sum(qOne, qTwo, qThree, qFour, qFive);
       if (result < 17){
         $("#snow").show();
@@ -26,19 +32,17 @@ $(document).ready(function(){
       } else if (result < 33) {
         $("#creative").show();
         $("form").hide();
-      } else  {
+        $("body").removeClass();
+        $("body").addClass("creativePhoto");
+      } else  if (result >= 33) {
         $("#party").show();
         $("form").hide();
+        $("body").removeClass();
+        $("body").addClass("partyPhoto");
+      } else {
+        alert("uh-oh. something didn't work. Please try again");
       }
+      $("#questionZero").text(user);
 
-      // if (result < 17){
-      //   alert("you are a snowbird");
-      // } else if (result < 25) {
-      //   alert("you are a beach bum")
-      // } else if (result < 33) {
-      //   alert("you are a creative retreat")
-      // } else  {
-      //   alert("you are a party animal!")
-      // }
   });
 });

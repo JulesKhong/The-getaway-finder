@@ -1,43 +1,60 @@
-/*html {
-  background: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
-
 .form-control {
   margin-bottom: 30px;
 }
 
 #snow {
   display: none;
-  width: 90%;
+  margin-top: 50px;
+  color: #3A3E47;
 }
 
 #beach {
   display: none;
+  margin-top: 50px;
+  color: #3A3E47;
 }
 
 #creative {
   display: none;
+  margin-top: 50px;
+  color: #3A3E47;
 }
 
 #party {
   display: none;
+  margin-top: 50px;
+  color: #3A3E47;
+}
+
+.col-md-4 {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2%;
 }
 
 .snowPhoto {
-  /*background-image: ;*/
   color: white;
-  background: url("../img/snowplay.jpg") no-repeat center center fixed;
+  background: url("../img/snowWide.jpg") no-repeat fixed;
   background-size: cover;
 }
 
 .beachPhoto {
   background-image: url("../img/beachZ.jpg");
   color: white;
+  background-size: cover;
+}
+
+.creativePhoto {
+  color: white;
+  background: url("../img/retreat.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.partyPhoto {
+  color: white;
+  background: url("../img/vegas.jpg") no-repeat fixed;
+  background-size: cover;
 }
 
 img {
