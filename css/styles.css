@@ -2,6 +2,22 @@
   margin-bottom: 30px;
 }
 
+#snow {
+  display: none;
+}
+
+#beach {
+  display: none;
+}
+
+#creative {
+  display: none;
+}
+
+#party {
+  display: none;
+}
+
 /*body {
   background: #
 }*/
